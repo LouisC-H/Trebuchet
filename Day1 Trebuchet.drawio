@@ -1,47 +1,183 @@
-<mxfile host="Electron" modified="2024-01-09T15:48:24.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="uMjmaO_FYlRbaVuNXW9q" version="22.0.0" type="device">
+<mxfile host="Electron" modified="2024-01-10T15:56:16.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.0 Chrome/114.0.5735.289 Electron/25.8.3 Safari/537.36" etag="VxJub7Yku5sZClGqdTvT" version="22.0.0" type="device">
   <diagram name="Page-1" id="6o2AzRBRGi5axFEUv6cR">
-    <mxGraphModel dx="574" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1668" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ra7P1JBBZSfs96q6E-a3-1" target="Ra7P1JBBZSfs96q6E-a3-3">
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-17" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&amp;nbsp; &amp;nbsp;For each character:&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="560" y="520" width="840" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-31" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="800" y="640" width="400" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-13" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&amp;nbsp; &amp;nbsp;For each line:&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="560" y="320" width="440" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ra7P1JBBZSfs96q6E-a3-1" target="Ra7P1JBBZSfs96q6E-a3-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-1" value="Input: Text file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-1" value="Input: Text file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="240" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-2" value="&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Text file&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Each line of text contains digits mixed in with the letters&lt;/li&gt;&lt;li&gt;Isolate the first and last digits, and use them to make a 2 digit number.&lt;/li&gt;&lt;li&gt;Sum all of the resultant numbers&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-2" value="&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Text file&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Each line of text contains digits mixed in with the letters&lt;/li&gt;&lt;li&gt;Isolate the first and last digits, and use them to make a 2 digit number.&lt;/li&gt;&lt;li&gt;Sum all of the resultant numbers&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="200" width="300" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ra7P1JBBZSfs96q6E-a3-3" target="Ra7P1JBBZSfs96q6E-a3-5">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ra7P1JBBZSfs96q6E-a3-3" target="Ra7P1JBBZSfs96q6E-a3-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-3" value="Read file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-3" value="Read file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="400" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ra7P1JBBZSfs96q6E-a3-5" target="Ra7P1JBBZSfs96q6E-a3-13">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ra7P1JBBZSfs96q6E-a3-5" target="Ra7P1JBBZSfs96q6E-a3-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-5" value="&amp;nbsp; &amp;nbsp;For each line:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=none;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-5" value="&amp;nbsp; &amp;nbsp;For each line:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=10;fontStyle=1;align=left;opacity=33;perimeterSpacing=1;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="40" width="440" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ra7P1JBBZSfs96q6E-a3-6" target="Ra7P1JBBZSfs96q6E-a3-8">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ra7P1JBBZSfs96q6E-a3-6" target="Ra7P1JBBZSfs96q6E-a3-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-6" value="Create list of digits" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-6" value="Create list of digits" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="640" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ra7P1JBBZSfs96q6E-a3-8" target="Ra7P1JBBZSfs96q6E-a3-11">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ra7P1JBBZSfs96q6E-a3-8" target="Ra7P1JBBZSfs96q6E-a3-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-8" value="Create a new number from 10*(first digit) + (second digit)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-8" value="Create a new number from str(first digit in list) + str(last digit in list)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="760" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-11" value="Rolling sum of numbers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-11" value="Rolling sum of numbers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="880" y="80" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ra7P1JBBZSfs96q6E-a3-13" value="Print rolling sum" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Ra7P1JBBZSfs96q6E-a3-13" value="Print rolling sum" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1080" y="80" width="82.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-2" target="vCgfw_3GW2YwXmnX-rAe-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-2" value="Input: Text file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="240" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-3" value="&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Text file&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Each line of text contains digits mixed in with the letters&lt;/li&gt;&lt;li&gt;Isolate the first and last digits, and use them to make a 2 digit number.&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#ff0000&quot;&gt;Now digits can be numbers or words!&lt;/font&gt;&lt;/li&gt;&lt;li&gt;Sum all of the resultant numbers&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="480" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-5" value="Read file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="400" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="vCgfw_3GW2YwXmnX-rAe-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1001" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-8" target="vCgfw_3GW2YwXmnX-rAe-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-8" value="Create list of digits" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="640" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-10" target="vCgfw_3GW2YwXmnX-rAe-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-10" target="vCgfw_3GW2YwXmnX-rAe-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="500" />
+              <mxPoint x="540" y="500" />
+              <mxPoint x="540" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-10" value="Create a new number from str(first digit in list) + str(last digit in list)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="760" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-11" value="Rolling sum of numbers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="880" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-12" value="Print rolling sum" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=15;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1080" y="360" width="82.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="600" />
+              <mxPoint x="1260" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-15" value="If character is a digit, add to digit list" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="680" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-20" target="vCgfw_3GW2YwXmnX-rAe-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-20" value="If a character is not a digit, check if it&#39;s the starting character of a digit word" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="680" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-23" target="vCgfw_3GW2YwXmnX-rAe-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="780" />
+              <mxPoint x="1440" y="500" />
+              <mxPoint x="820" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-23" value="End loop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1280" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-28" target="vCgfw_3GW2YwXmnX-rAe-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280.8" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="960" />
+              <mxPoint x="1260" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-28" value="Else, ignore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="680" y="920" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-29" value="Loop through the next characters until:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="840" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-32" target="vCgfw_3GW2YwXmnX-rAe-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-32" value="The final expected character of the digit word is reached" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="960" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-33" target="vCgfw_3GW2YwXmnX-rAe-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-33" value="An unexpected character is read" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="960" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1220" y="720" />
+              <mxPoint x="1220" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-34" value="Add the corresponding digit to the digit list" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1080" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vCgfw_3GW2YwXmnX-rAe-35" target="vCgfw_3GW2YwXmnX-rAe-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-35" value="Ignore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=10;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1080" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vCgfw_3GW2YwXmnX-rAe-43" value="Note: check that the remaining string is long enough" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontStyle=1;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="800" y="640" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

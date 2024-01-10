@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.*;
 
-public class MainTests {
+public class Part1Tests {
 
     @Test
     void testA(){
